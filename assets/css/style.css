@@ -1,0 +1,41 @@
+/*------ General selector-----  */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--dark);
+
+}
+
+/* ------Utility selector-----  */
+
+/* color zone  */
+:root {
+    --light: #ffffff;
+    --dark: #000000;
+}
+
+/* dimension zone  */
+
+/* Container zone  */
+
+.my_container {
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/onur-binay-P3PpD5k7jfI-unsplash.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+}
+
+.my_card {
+    text-shadow: 1px 2px 3px black;
+    background-color: rgba(255, 255, 255, 1);
+    /* width: calc(100% / 5 - 20px); */
+    /* padding: 10px 10px; */
+    filter: drop-shadow(1px 2px 4px black);
+}
+
+.my_card img {
+    filter: drop-shadow(1px 2px 4px black);
+    border-radius: 15px;
+}
