@@ -17,6 +17,11 @@ body {
 
 /* Container zone  */
 
+.my_bg {
+    background-image: url(https://thumbs.dreamstime.com/b/contesto-di-acquisto-online-pc-portatile-carrello-per-la-spesa-e-regalo-bianco-con-nastro-blu-al-buio-via-internet-concetto-218454013.jpg);
+}
+
+
 .my_container {
 
     width: 100%;
@@ -28,7 +33,7 @@ body {
 }
 
 .my_card {
-    text-shadow: 1px 2px 3px black;
+    text-shadow: 0px 0px 1px black;
     background-color: rgba(255, 255, 255, 1);
     /* width: calc(100% / 5 - 20px); */
     /* padding: 10px 10px; */
@@ -36,6 +41,8 @@ body {
 }
 
 .my_card img {
-    filter: drop-shadow(1px 2px 4px black);
-    border-radius: 15px;
+    filter: drop-shadow(2px 2px 2px rgb(45, 45, 45));
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
