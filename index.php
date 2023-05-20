@@ -39,6 +39,13 @@ include __DIR__ . '/db.php';
                                 <?= $pc->brand ?>
                             </h6>
                             <ul class="list-group list-group-flush">
+
+                                <li class="card-text list-group-item">
+                                    <b>Monitor :</b>
+                                    <?php $pc->set_size(32);
+                                    echo $pc->get_size() ?>
+                                </li>
+
                                 <li class="card-text list-group-item">
                                     <b class="me-2"> RAM :</b>
                                     <ul class="list-unstyled">

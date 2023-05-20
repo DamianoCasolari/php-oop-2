@@ -1,8 +1,9 @@
 <?php
 
+
 class Desktop extends Pc
 {
-
+    use Monitor;
     public $keyboard;
     public $mouse;
     public $powerSource;
