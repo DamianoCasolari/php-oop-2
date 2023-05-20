@@ -1,6 +1,7 @@
 <?php
 
 include __DIR__ . '/db.php';
+
 ?>
 
 <!DOCTYPE html>

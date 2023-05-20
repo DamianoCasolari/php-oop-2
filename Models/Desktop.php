@@ -1,6 +1,5 @@
 <?php
-
-
+include __DIR__ . "/Traits/Monitor.php";
 class Desktop extends Pc
 {
     use Monitor;

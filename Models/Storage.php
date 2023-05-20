@@ -1,4 +1,5 @@
 <?php
+
 class Storage
 {
     public $capacity;

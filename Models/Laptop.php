@@ -1,5 +1,6 @@
 <?php
 
+// include __DIR__ . '/Pc.php';
 
 class Laptop extends Pc
 {

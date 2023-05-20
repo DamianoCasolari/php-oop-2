@@ -4,11 +4,9 @@ include __DIR__ . '/Desktop.php';
 include __DIR__ . '/Laptop.php';
 include __DIR__ . '/Ram.php';
 include __DIR__ . '/Storage.php';
-include __DIR__ . "/../Traits/Monitor.php";
 
 class Pc
 {
-
     private $type;
     public $image;
     public $brand;
