@@ -1,8 +1,8 @@
 <?php
-include __DIR__ . "/Traits/Monitor.php";
+// include __DIR__ . "/Traits/Monitor.php";
 class Desktop extends Pc
 {
-    use Monitor;
+    // use Monitor;
     public $keyboard;
     public $mouse;
     public $powerSource;

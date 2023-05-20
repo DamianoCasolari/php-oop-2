@@ -4,7 +4,7 @@
 
 class Laptop extends Pc
 {
-    use Monitor;
+
     public $illuminatedKeyboard;
     public $fingerprintReader;
     public $CdPlayer;

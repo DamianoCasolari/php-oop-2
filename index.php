@@ -1,7 +1,11 @@
 <?php
 
+include __DIR__ . '/Models/Pc.php';
+include __DIR__ . '/Models/Desktop.php';
+include __DIR__ . '/Models/Laptop.php';
+include __DIR__ . '/Models/Ram.php';
+include __DIR__ . '/Models/Storage.php';
 include __DIR__ . '/db.php';
-
 ?>
 
 <!DOCTYPE html>

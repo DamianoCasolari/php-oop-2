@@ -1,6 +1,5 @@
 <?php
 
-include __DIR__ . '/Models/Pc.php';
 
 $Computers = [
     new Desktop('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3HmjMBElZgffgLrNR9MRXLAyyEYMSpvyu5xDIjQI5EHo-wpHRSbmrxkzeJnyH3s17fI&usqp=CAU', 'Dell', new Storage('1TB', 'HDD'), new Ram('16GB', 'DDR4'), 'Intel Core i7', 'Inspiron 5000', 'United States', 'Dell Keyboard', 'Logitech Mouse', 'AC Power'),
