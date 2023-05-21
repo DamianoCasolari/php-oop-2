@@ -9,9 +9,9 @@ class Laptop extends Pc
     public $fingerprintReader;
     public $CdPlayer;
 
-    public function __construct(string $image, string $brand, Storage $storage, Ram $ram, string $cpu, string $model, string $country, bool $illuminatedKeyboard, bool $fingerprintReader, bool $CdPlayer)
+    public function __construct(int $monitorSize, string $image, string $brand, Storage $storage, Ram $ram, string $cpu, string $model, string $country, bool $illuminatedKeyboard, bool $fingerprintReader, bool $CdPlayer)
     {
-        parent::__construct($image, $brand, $model, $storage, $ram, $cpu, $country);
+        parent::__construct($monitorSize, $image, $brand, $model, $storage, $ram, $cpu, $country);
 
         $this->illuminatedKeyboard = $illuminatedKeyboard;
         $this->fingerprintReader = $fingerprintReader;

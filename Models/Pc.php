@@ -15,7 +15,7 @@ class Pc
 
 
 
-    public function __construct(string $image, string $brand, string $model, Storage $storage, Ram $ram, string $cpu, string $country)
+    public function __construct(int $monitorSize, string $image, string $brand, string $model, Storage $storage, Ram $ram, string $cpu, string $country)
     {
         $this->image = $image;
         $this->model = $model;
@@ -24,6 +24,8 @@ class Pc
         $this->ram = $ram;
         $this->cpu = $cpu;
         $this->country = $country;
+        $this->set_size($monitorSize);
+
 
     }
 

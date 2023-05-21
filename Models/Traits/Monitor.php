@@ -2,7 +2,7 @@
 
 trait Monitor
 {
-    public $size;
+    private $size;
 
     public function set_size($size)
     {
