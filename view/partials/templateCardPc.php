@@ -1,4 +1,4 @@
-<div class="p-3 col-6 col-md-3 col-xxl-2">
+<div id="shop" class="p-3 col-6 col-md-3 col-xxl-2">
     <div class="card my_card text-dark ">
         <div class="card-body w-100">
             <h6 class="card-subtitle mb-2 text-muted text-center">
@@ -21,7 +21,9 @@
                 <li class="card-text list-group-item">
                     <b>Monitor :</b>
                     <?php
-                    echo $pc->get_size() ?>
+
+                    echo $pc->get_size();
+                    ?>
                 </li>
 
                 <li class="card-text list-group-item">

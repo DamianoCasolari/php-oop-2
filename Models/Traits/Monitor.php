@@ -6,7 +6,11 @@ trait Monitor
 
     public function set_size($size)
     {
-        $this->size = $size . " inches";
+        if (!is_numeric($size)) {
+            throw new Exception("************* the possibly value of size it's only a number *************");
+        }
+
+        return $this->size = $size . " inches";
     }
     public function get_size()
     {

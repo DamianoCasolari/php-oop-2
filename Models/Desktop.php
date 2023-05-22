@@ -7,7 +7,7 @@ class Desktop extends Pc
     public $mouse;
     public $powerSource;
 
-    public function __construct(int $monitorSize, string $image, string $brand, Storage $storage, Ram $ram, string $cpu, string $model, string $country, string $keyboard, string $mouse, string $powerSource)
+    public function __construct($monitorSize, string $image, string $brand, Storage $storage, Ram $ram, string $cpu, string $model, string $country, string $keyboard, string $mouse, string $powerSource)
     {
         parent::__construct($monitorSize, $image, $brand, $model, $storage, $ram, $cpu, $country);
 

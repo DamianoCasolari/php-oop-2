@@ -6,6 +6,9 @@ include __DIR__ . '/Models/Laptop.php';
 include __DIR__ . '/Models/Ram.php';
 include __DIR__ . '/Models/Storage.php';
 include __DIR__ . '/db.php';
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +23,7 @@ include __DIR__ . '/db.php';
 
         <div v-if="!pageLoad">
             <div class="spinner_container">
-                <div class="spinner-border text-dark" role="status">
+                <div class="spinner-grow text-dark" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div>
             </div>
